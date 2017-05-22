@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* -----------------------------------
+E styles
+----------------------------------- */
+
+html,body
+{
+	color: #000;
+	background: #CBE9CA;
+}
+
+#logo{float:left;
+}
+.nav {
+	overflow:hidden;
+	background-color:white;
+	
+}
+
+.banner-text{margin-left:10em} 
+
+.nav a {
+	text-transform: uppercase;
+	float: left;
+    font-size: 16px;
+	font-weight: bold;
+    color: #999;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+
+.nav a:hover, .dropdown:hover {
+	background-color: gray;
+	
+}
+
+
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #999;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+	
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+
+.dropdown .dropbtn {
+    text-transform: uppercase; 
+	font-size: 16px;
+	font-weight: bold;   
+    border: none;
+    outline: none;
+    color: #999;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+  #sidebar {
+      position:left;
+      top: 40px;
+	  height:50%;
+	  clear:both;
+      right: 0;
+      width: 20%;
+	  padding-top:10em;
+      background: #999;
+	  margin-top:10em;
+	float:left;
+  }
+  
+#col1 {
+	
+	width: 35%;
+	text:bold;
+	height: 200px;
+	border: solid blue;
+	margin: 5px 10px 10px 10px;
+	padding: 5px;
+}
+#col2 {
+	width: 50%;
+	height: 150px;
+	border: solid yellow;
+	margin: 5px 10px 10px 0px;
+	padding: 5px;	
+}
+#col3 {
+	width: 30%;
+	float: left;
+	height: 200px;
+	border: solid red;
+	margin: 5px 5px 10px 0px;
+	padding: 5px;
+}
+footer {
+	
+	background-color: green;
+	clear:both;
+}
+
+
+
+footer #bottomNav {
+	height: 40px;
+	width: 1024px;
+	text-align: center;
+	display: block;
+	padding-top: 10px;
+}
+
+.img-circle {
+	width:50px;
+	}
+	.call-to-action {
+		
+		border:1px solid #DFDFDF;
+        padding:10px; 
+   }
+   .one {
+	   color:#F4292C;
+	   }
+   .Two {
+	   color:#2E0C0c;
+	   }
+   
+   .Thress {
+	   color:#20450c;
+	   }
+	 .height {
+		text-align:justify;
+		font-size:13px;
+		padding-bottom:10 px;
+		 }  
+		 

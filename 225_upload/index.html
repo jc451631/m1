@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Townsville Community Music Centre (TCMC)</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<script>
+	function run_first() {
+		var id_var = sessionStorage.li_id;
+		if(id_var) {
+			document.getElementById(id_var).style.backgroundColor = "gray";
+		}
+	}
+	
+	function nav_item_selected(li_id) {	
+		for(i = 0; i < 6; i++) {
+			document.getElementById(i.toString()).style.backgroundColor = "";
+		}
+		document.getElementById(li_id.toString()).style.backgroundColor = "gray";
+		
+		//store li_id in sessionStorage
+		sessionStorage.li_id = li_id.toString();		
+	}
+</script>
+
+       
+
+
+
+
+
+
+</head>
+<section id="col1">
+    	<h2>UPCOMING EVENTS</h2>
+        <p>
+        
+        </p>
+    </section>
+    <section id="col2">
+    	<h2>ABOUT THE FESTIVAL</h2>
+        <p>
+        
+        </p>
+    </section>
+    
+<footer>
+
+
+
+<nav id="bottomNav">
+<a href="#">Terms of Service</a> 
+<a href="#">Policy</a> 
+<a href="#">contact</a></nav>
+
+
+</footer>
+<body>
+
+
+<div class="row row-padding-small row-white">
+	<div class="container">
+		<img id="logo" src="LOGO.JPG.jpg" width="240" height="240" alt=""/>
+	</div>
+</div>
+<div class="row row-padding-large row-banner">
+	<div class="container-narrow">
+		<h1 class="banner-text">
+			We love Music We love Life.
+		</h1>
+	</div>
+</div>
+
+
+
+
+
+<div class="nav">
+        <a href="index.html" id="0" onClick="nav_li_selected(0)">Home</a>
+        <div class="dropdown">
+         <button class="dropbtn" id="1">Events</button>
+         <div class="dropdown-content">
+         <a href="summer.html" onClick="nav_li_selected(1)">Summer event</a>
+         <a href="winter.html" onClick="nav_li_selected(1)">Winter event</a>
+         </div>
+        </div>       
+        <a href="#" id="2" onClick="nav_li_selected(2)">Bulletin</a>
+        <a href="#" id="3" onClick="nav_li_selected(3)">Musicians</a>
+        <a href="About Us.html" id="4" onClick="nav_li_selected(4)">Members</a>
+        <a href="#" id="5" onClick="nav_li_selected(5)">Sponsors</a>
+        <a href="#" id="6" onClick="nav_li_selected(6)">About Us</a>
+    
+<div id="sidebar">
+
+
+<p><strong>VOLUNTEERS WANTED </strong></p>
+
+<p><strong>LIVE HOUSE MUSIC</strong></p>
+<p><strong>FIND OUT MORE</strong></p>
+</div>
+
+
+<div id="mian">
+
+<div id="innerMain">
+<div id="contentOne"><img src="../ClientContent/TCMC Images Docs/musos/SNBB1.jpg" width="320" height="320" alt="bvb"></div><!-- end contentOne -->
+  
+  <div id="contentTwo">
+<div id="contentTwo"><img src="../ClientContent/TCMC Images Docs/musos/DD600400.png"width="320" height="320" alt="bvb"></div>
+
+<div class="container">
+<div class="row">
+<div class="col-md-4 text-center">
+ <div class="col-md-12 col-sm-12 call-to-action">
+<img src="../ClientContent/TCMC Images Docs/SiteImages/30anniversary02300.png" class="img-circle img-responsive center-block" alt="Placeholder image">
+<h3 class="one">EVENT</h3>
+<p class="height">XXXXX1</p>
+<button type="button" class="btn btn-primary">View Details</button>
+</div><!--col-mid-12-->
+</div><!--col-mid-4-->
+
+<div class="col-md-4 text-center">
+ <div class="col-md-12 col-sm-12 call-to-action">
+<img src="../ClientContent/TCMC Images Docs/SiteImages/art-Qld_Logo_crest-620x349.png" class="img-circle img-responsive center-block" alt="Placeholder image">
+<h3 class="two">BULLETIN</h3>
+<p class="height">XXXX2</p>
+<button type="button" class="btn btn-primary">View Details</button>
+</div><!--col-mid-12-->
+</div><!--col-mid-4-->
+
+<div class="col-md-4 text-center">
+ <div class="col-md-12 col-sm-12 call-to-action">
+<img src="../ClientContent/TCMC Images Docs/SiteImages/CIVIC C2 LOGO.jpg" class="img-circle img-responsive center-block" alt="Placeholder image">
+<h3 class="three">OUR BAND</h3>
+<p class="height">XXXX3</p>
+<button type="button" class="btn btn-primary">View Details</button>
+</div><!--col-mid-12-->
+</div><!--col-mid-4-->
+ </div><!--row-->
+</div><!--container>
+
+
+
+
+
+<footer><h3>Design By 007 - 2017</h3></footer>
+
+
+
+
+</body>
+</html>
